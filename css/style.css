@@ -13,6 +13,24 @@
   width: 400px;
 }
 
+.btn{
+  font-family: 'Lato', sans-serif;
+  margin-top: 1em;
+  padding: 0.5em 1em;
+  font-size: 30px;
+  text-decoration: none;
+  border: 1px solid #5a5a5a;
+  color: #5a5a5a;
+  font-weight: bold;
+  transition: 0.5s ease-in-out;
+}
+
+.btn:hover{
+  background: #5a5a5a;
+  border: none;
+  color: white;
+}
+
 @media screen and (max-width: 1024px) {
   .logo {
     width: 320px;
@@ -591,7 +609,6 @@ hr {
   background: #f2f2f2;
 }
 
-.contact-form {}
 
 .contact-form input, .contact-form textarea {
   padding: 10px 12px;
@@ -606,17 +623,19 @@ hr {
 }
 
 .contact-form .form-send button {
-  background: #29427a;
+  background: #ece783;
   border-radius: 60px;
   padding: 14px 40px;
-  color: #fff;
+  color: #5a5a5a;
   transition: 0.4s;
   cursor: pointer;
+  border: none;
   font-size: 18px;
 }
 
 .contact-form .form-send button:hover {
-  background: #33559e;
+  background: transparent;
+  border: 3px solid #ece783;
 }
 
 .contact-form .validate {
@@ -693,14 +712,14 @@ hr {
 /* Copyrights */
 
 #copyrights {
-  background: #162852;
+  background: #ece783;
   padding: 20px 0;
   text-align: center;
 }
 
 #copyrights p {
   margin-bottom: 5px;
-  color: #fff;
+  color: #5a5a5a;
 }
 
 #copyrights a {
